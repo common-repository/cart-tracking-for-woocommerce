@@ -1,0 +1,79 @@
+.wtrackt_table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+.wtrackt_table td, .wtrackt_table th {
+    border: 1px solid #ccd0d4;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    text-align: left;
+    padding: 8px;
+  }
+  
+.wtrackt_table tr:nth-of-type(odd) {
+    background-color: #ffffff;
+  }
+  .wtrackt_table tr:nth-of-type(even) {
+    background-color: #F9F9F9;
+  }
+  .wtrackt_status{
+    padding: 1px 9px 2px;
+  font-size: 12.025px;
+  font-weight: bold;
+  white-space: nowrap;
+  color: #ffffff;
+  background-color: #70b9c5;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+  }
+  .wtrackt_completed{
+    background-color: #4ca64c;
+  }
+  .wtrackt_cancelled{
+    background-color: #7f0883;
+  }
+  .wtrackt_on-hold{
+    background-color: 	#a896ca;
+  }
+  .wtrackt_processing{
+    background-color:		#75aadc;
+  }
+  .wtrackt_failed{
+    background-color: #ca4a32;
+  }
+  .wtrackt_refunded{
+    background-color: 	#99afd7;
+  }
+  .wtrackt_pending{
+    background-color: #eecb31;
+  }
+
+
+  .wrackt_cart_logs{
+    margin-top:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 99%;
+  }
+  .wrackt_cart_logs td, .wrackt_cart_logs th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .wrackt_cart_logs tr:nth-child(odd){background-color: #ffffff;}
+
+  .wrackt_cart_logs tr:hover {background-color: #ddd;}
+  .wrackt_cart_logs th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:	#5eb0e5;
+    color: white;
+  }
+
+  .wtrackt_username {
+    color: grey;
+    font-size: 14px;
+  }
+  
